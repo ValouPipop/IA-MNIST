@@ -46,7 +46,8 @@ model1.summary()
 
 h1 = model1.fit(X_train, Y_train, 
           batch_size=32,epochs=30, verbose=1,validation_data=(X_test,Y_test))
-model1.save('modele_TP2.h5');
+model1.save('models/mlp_mnist.h5')
 matplotlib.pyplot.plot(h1.history['val_accuracy'])
 matplotlib.pyplot.plot(h1.history['accuracy'])
+
 
