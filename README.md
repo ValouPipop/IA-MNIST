@@ -34,7 +34,7 @@ Le projet explore trois niveaux de complexité :
 
 ### Pré-requis
 
-* **Langage :** Python 3.x
+* **Langage :** Python 3.8.X
 * **Distribution :** Anaconda (recommandé).
 * **IDE :** Spyder (ou tout autre IDE Python).
 
