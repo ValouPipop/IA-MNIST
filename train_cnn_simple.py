@@ -5,12 +5,7 @@ Created on Wed Jun  4 15:48:28 2025
 @author: Valentin
 """
 
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Feb 03 19:31:24 2021
 
-@author: Romain Marie
-"""
 
 from keras.datasets import mnist
 from keras.utils import to_categorical
@@ -55,3 +50,4 @@ h1 = model1.fit(X_train, Y_train,
 model1.save('modele_TP2Convultion.h5');
 matplotlib.pyplot.plot(h1.history['val_accuracy'])
 matplotlib.pyplot.plot(h1.history['accuracy'])
+
